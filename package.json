@@ -1,5 +1,5 @@
 {
-  "name": "@bam.tech/react-native-image-resizer",
+  "name": "@qdivision/react-native-image-resizer",
   "version": "3.0.5",
   "description": "Rescale local images with React Native",
   "main": "lib/commonjs/index.js",
@@ -50,14 +50,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bamlab/react-native-image-resizer.git"
+    "url": "git+https://github.com/QDivision/react-native-image-resizer.git"
   },
   "author": "Florian Rival <florianr@bam.tech> (http://bam.tech)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bamlab/react-native-image-resizer/issues"
+    "url": "https://github.com/QDivision/react-native-image-resizer/issues"
   },
-  "homepage": "https://github.com/bamlab/react-native-image-resizer#readme",
+  "homepage": "https://github.com/QDivision/react-native-image-resizer#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"

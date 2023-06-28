@@ -43,9 +43,9 @@ RCT_REMAP_METHOD(createResizedImage, uri:(NSString *)uri width:(double)width hei
             NSURL * fileURL = [[NSURL alloc] initWithString:uri relativeToURL:baseURL];
 
             NSError *err;
-            // if ([fileURL checkResourceIsReachableAndReturnError:&err] == NO){
-            //     [NSException raise:moduleName format:@"Image uri invalid."];
-            // }
+            if ([fileURL checkResourceIsReachableAndReturnError:&err] == NO){
+                [NSException raise:moduleName format:@"Image uri invalid."];
+            }
 
             NSData * imageData = [NSData dataWithContentsOfURL:fileURL];
 
